@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(205, 192, 192);
+    margin: 0px;
+}
+.form{
+    /* border: 2px solid black; */
+    padding-right: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(106, 103, 103);
+    /* margin-right: 600px;
+    margin-left: 600px; */
+   
+
+}
+h1{
+    margin-top: 0px;
+}
+@media (min-width:370px)and (max-width:1220px){
+    .form{
+        /* border: 2px solid black; */
+        padding-right: 100px;
+        padding-left: 100px;
+        background-color: darkgrey;
+      
+       
+    
+    }
+    .h1{
+        padding-right: 400px;
+
+    }
+
+}
+
+
+.btn1{
+    border-radius: 20px;
+    margin-right:30px ;
+    
+}
+
+.btn2{
+    border-radius: 20px;
+}
+
+.btn1:hover{
+border: red;
+border-radius: 20px;
+background-color:red;
+}
+
+
+.btn2:hover{
+    border: red;
+    border-radius: 20px;
+    background-color:red;
+ }
+
+ input:focus{
+    background-color: aquamarine;
+ }
